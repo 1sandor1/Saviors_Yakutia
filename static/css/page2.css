@@ -1,10 +1,45 @@
+.main {
+  text-align: center;
+  justify-content: center;
+}
+.main .main__text .main__text-s {
+  font-size: 25px;
+}
+.main .main__message {
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.main .main__result .result__inst {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
 .main .main__result .result__inst .inst__img {
   background-image: url("https://egevpare.ru/wp-content/uploads/2022/09/06-universitet-baumana-5.jpg");
   background-position: center;
   background-size: cover;
 }
+.main .main__result .result__colege {
+  display: flex;
+  flex-direction: row;
+}
 .main .main__result .result__colege .colege__img {
   background-image: url("https://vuzopedia.ru/storage/app/uploads/public/62f/398/727/62f398727c4c9089018494.jpg");
   background-position: center;
   background-size: cover;
+}
+.main .main__massage-1 {
+  text-align: center;
+}
+.main .main__massage-1 .massage-1__text {
+  font-size: 44px;
+}
+.main .main__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.main .main__links .link-1 {
+  padding: 20px 20px 20px 20px;
 }/*# sourceMappingURL=page2.css.map */

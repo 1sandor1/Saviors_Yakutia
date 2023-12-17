@@ -56,7 +56,7 @@ def registration():
 
         prof_data = pd.read_excel("education_data.xlsx")
         result_data = prof_data[f'{profession}']
-        return render_template("conclusion.html",prof_name=result_data[6],curs1=result_data[4],curs2=result_data[5],
+        return render_template("page2.html",prof_name=result_data[6],curs1=result_data[4],curs2=result_data[5],
                                                 photo1=result_data[1],photo2=result_data[3],university=result_data[0],college=result_data[2])
 
     else:
