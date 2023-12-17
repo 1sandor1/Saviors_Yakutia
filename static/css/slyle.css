@@ -1,0 +1,99 @@
+* {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 1440px;
+}
+
+.main {
+  background: linear-gradient(33deg, rgba(24, 0, 170, 0.55) 9.63%, #000 65.95%);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+}
+.main .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .content .main__side {
+  transform: rotate(-90deg);
+  position: relative;
+  left: -50%;
+}
+.main .content .main__side .main__side-text {
+  color: #ffffff;
+  font-family: League Spartan;
+  font-size: 24px;
+  text-align: end;
+  width: 264.795px;
+  height: 29.335px;
+}
+.main .content .main__content {
+  text-align: right;
+}
+.main .content .main__content .main__content-title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 740px;
+}
+.main .content .main__content .main__content-button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  background: linear-gradient(73deg, #FFF -15.3%, rgba(3, 0, 163, 0) 396.24%);
+  text-align: center;
+  padding: 10px;
+  color: #1B0B7D;
+  font-family: Montserrat;
+  font-size: 32px;
+  margin-top: 40px;
+  width: 268px;
+}
+.main .content .main__content .checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: 15px;
+}
+.main .content .main__content .checkbox .checkbox__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.main .content .main__content .main__contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.main .content .main__content .main__contacts .main__contacts-title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main .content .main__content .main__contacts .main__contacts-info .main__contacts-mail {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+.main .content .main__content .main__contacts .main__contacts-info .main__contacts-telefon {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-top: 15px;
+}/*# sourceMappingURL=slyle.css.map */

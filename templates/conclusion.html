@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/page1.css">
+</head>
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="container">
+                <div class="header__side">SAVIORS</div>
+                <div class="header__title">Сервис анализа для профориентации молодежи</div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__text">
+                    <p class="main__text-s">Совсем скоро ты получишь крутые рекомендации и сможешь начать свой путь к яркой и успешной карьере!</p>
+                <div class="main__message">ТЫ - {{prof_name}}!</div>
+                <div class="main__result">
+                    <div class="result__inst">
+                        <img src="{{photo1}}" height="180px" width="180px" class="inst__img">
+                        <p class="inst__text">{{university}}</p>
+                    </div>
+                    <div class="result__colege">
+                        <img src="{{photo2}}" height="180px" width="180px" class="colege__img">
+                        <p class="colege__text">{{college}}</p>
+                    </div>
+                </div>
+                <div class="main__massage-1">
+                    <p class="massage-1__text">Смотреть обучающие курсы</p>
+                </div>
+                <div class="main__links">
+                    <button class="link-1">
+                        <a href="{{curs1}}" class="link__text">Курс №1</a>
+                    </button>
+                    <button class="link-1">
+                        <a href="{{curs2}}" class="link__text">Курс №2</a>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__title">Контакты</div>
+                <div class="footer__contacts">
+                    <p class="footer__contacts-text1">reykvi@yandex.ru</p>
+                    <p class="footer__contacts-text2">+7 (964) 774 9777</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+* {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+.container {
+  padding: 0px;
+  max-width: 1440px;
+  min-width: 1270px;
+  margin: 0 auto;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(33deg, rgba(24, 0, 170, 0.55) 9.63%, #000 65.95%);
+}
+.content .header {
+  position: relative;
+}
+.content .header .header__side {
+  color: #FBFAFA;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 30px;
+  position: absolute;
+}
+.content .header .header__title {
+  color: #FAF7F7;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 68px;
+  width: 600px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.content .footer {
+  text-align: center;
+  background-color: #000;
+  justify-content: center;
+}
+.content .footer .footer__title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 30px;
+  display: inline-block;
+  margin: auto;
+  margin-right: 140px;
+  text-align: center;
+}
+.content .footer .footer__contacts {
+  display: inline-block;
+  text-align: end;
+  margin: 63px 0 81px 0;
+}
+.content .footer .footer__contacts .footer__contacts-text1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+.content .footer .footer__contacts .footer__contacts-text2 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-top: 14px;
+}/*# sourceMappingURL=page1.css.map */
