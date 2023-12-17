@@ -48,7 +48,6 @@ def registration():
         user_url = request.form['vk_url']
         vk_id = get_user_id(user_url[15:])
         profession = prof_predict(vk_id)[0][0]
-        print(login, profession)
         profile = Profile(login=login,password=password,info=info,telegram_info=telegram_info,phone_number=phone_number, profession=profession)
 
 
@@ -57,7 +56,6 @@ def registration():
 
         prof_data = pd.read_excel("education_data.xlsx")
         result_data = prof_data[f'{profession}']
-        print(result_data)
         return render_template("conclusion.html",prof_name=result_data[6],curs1=result_data[4],curs2=result_data[5],
                                                 photo1=result_data[1],photo2=result_data[3],university=result_data[0],college=result_data[2])
 

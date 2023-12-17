@@ -17,6 +17,7 @@
 }
 .content .header {
   position: relative;
+  margin-bottom: 80px;
 }
 .content .header .header__side {
   color: #FBFAFA;
@@ -34,6 +35,31 @@
   margin-right: 0px;
   margin-left: auto;
 }
+.content .main {
+  color: #FFF;
+  font-family: Montserrat;
+}
+.content .main .main__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content .main .main__content .main__content-dop {
+  border-radius: 30px;
+  background: rgba(132, 159, 255, 0.1);
+  padding: 20px 20px 30px 20px;
+  max-width: 550px;
+  text-align: center;
+}
+.content .main .main__content .main__content-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 30px;
+}
 .content .footer {
   text-align: center;
   background-color: #000;
@@ -41,7 +67,7 @@
 }
 .content .footer .footer__title {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 30px;
   display: inline-block;
   margin: auto;
@@ -55,12 +81,12 @@
 }
 .content .footer .footer__contacts .footer__contacts-text1 {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
 }
 .content .footer .footer__contacts .footer__contacts-text2 {
   color: #FFF;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   margin-top: 14px;
 }/*# sourceMappingURL=page1.css.map */
